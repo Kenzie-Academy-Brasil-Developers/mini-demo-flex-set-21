@@ -14,10 +14,51 @@
 body{
     font-family: 'Lato', sans-serif;
 }
-
+img {
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
 /* Mobile  */
 
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+        align-items: center;
+    }
+    
+    .header .header__image {
+        display: flex;
+        width: 20px;
+        height: 20px;
+    }
 
+        .header .header__image img {
+            width: 20px;
+
+        }
+
+        .header .header__image figcaption {}
+
+
+    .header .menu{}
+
+        .header .menu__list{
+            display: flex;
+        }
+
+            .header .menu__list .menu__item{
+                padding: 0 8px;
+
+            }  
+
+                .header .menu__list .menu__item a{}   
+
+                    .header .menu__list .menu__item a img{
+                        width: 20px;
+                    }   
 
 
 /* Desktop  */
