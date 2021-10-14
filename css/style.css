@@ -1,15 +1,24 @@
 /* Importação da font lato*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* Variaveis */
+/* Corres */
 
-:root{
-    --basic-green: #5CA720;
-    --basic-black: #161616;
-    --basic-gray: #A5A1A1;
-    --basic-white: #F9F9F9;
-}
+ /* 
+    #5CA720
+    #161616
+    #A5A1A1
+    #F9F9F9
+ */
+
 
 body{
     font-family: 'Lato', sans-serif;
+}
+
+/* Mobile  */
+
+
+/* Desktop  */
+@media screen and (min-width: 800px){
+
 }

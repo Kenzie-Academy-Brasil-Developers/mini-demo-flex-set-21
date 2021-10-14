@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,37 +11,52 @@
 
     <title>selfcare</title>
 </head>
+
 <body>
 
-    <header>
-        <figure>
-            <img src="./assets/icon/star.png"></img>
+    <header class="header-content">
+        <figure class="header-content__image">
+            <img src="./assets/icon/star.png">
             <figcaption>selfcare</figcaption>
-
         </figure>
-        
-        <nav>
+
+        <nav class="menu">
             <ul>
-                <li><a href="#"><img src="./assets/icon/search.png"></img></a></li>
-                <li><a href="#"><img src="./assets/icon/user.png"></img></a></li>
-                <li><a href="#"><img src="./assets/icon/cart.png"></img></a></li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        <img src="./assets/icon/search.png" class="menu__image">
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">
+                        <img src="./assets/icon/user.png" class="menu__image">
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link"><img src="./assets/icon/cart.png" class="menu__image">
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <section>
-
-        <img src="./assets/img/banner.png"></img>
-
+        <h2>Seção de banners</h2>
+        <figure>
+            <img src="./assets/img/banner.png"></img>
+            <figcaption></figcaption>
+        </figure>
     </section>
 
     <main>
         <section>
-            <h1>promoção</h1>
+            <h2>promoção</h2>
             <p>9 produtos</p>
         </section>
 
         <section>
+            <h2>Seção de Produtos</h2>
+
             <div>
                 <img src="./assets/img/card1.jpg"></img>
                 <h3>Lorem ipsum dolor sit</h3>
@@ -97,10 +113,10 @@
         </section>
     </main>
 
-    <footer>
-        <section>
-            <nav>
-                <ul>
+    <footer class="footer">
+        <div class="footer__content">
+            <nav class="footer__menu">
+                <ul class="footer__list">
                     <li><a href="#">Contato</a></li>
                     <li><a href="#">Termos de serviços</a></li>
                     <li><a href="#">Politica de privacidade</a></li>
@@ -108,32 +124,52 @@
                 </ul>
             </nav>
 
-            <form>
-                <h2>Newsletter</h2>
-                <div>
-                      <input type="email" id="email" name="email">
-                      <button>Inscrever</button>
+            <form class="footer__form-newsletter">
+                <h2 class="footer__tittle">Newsletter</h2>
+                <div class="footer__content">
+                    <input type="email" id="email" name="email" class="footer__input">
+                    <button class="footer__button">Inscrever</button>
                 </div>
             </form>
-        </section>
+        </div>
 
-        <section>
-            <nav>
-                <ul>
-                    <li><a href="#"><img src="./assets/icon/instagram.png"></img></a></li>
-                    <li><a href="#"><img src="./assets/icon/facebook.png"></img></a></li>
+        <div class="footer__content">
+            <div class="footer__menu-icons">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <img src="./assets/icon/instagram.png" class="footer__image">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <img src="./assets/icon/facebook.png">
+                        </a>
+                    </li>
                 </ul>
-            </nav>
-            <nav>
+            </div>
+            <div class="footer__menu-icons">
                 <ul>
-                    <li><a href="#"><img src="./assets/icon/mastercard.png"></img></a></li>
-                    <li><a href="#"><img src="./assets/icon/pan.png"></img></a></li>
-                    <li><a href="#"><img src="./assets/icon/visa.png"></img></a></li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <img src="./assets/icon/mastercard.png"></a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <img src="./assets/icon/pan.png">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <img src="./assets/icon/visa.png">
+                        </a>
+                    </li>
                 </ul>
-            </nav>
-        </section>
-        
+            </div>
+        </div>
+
     </footer>
-    
+
 </body>
+
 </html>
