@@ -40,13 +40,27 @@
         </nav>
     </header>
 
-    <section>
+    <!-- Forma comum para criar uma seção de banner -->
+    <!-- <section>
         <h2 class="hidden">Seção de banners</h2>
         <figure>
-            <img src="./assets/img/banner.png"></img>
+            <img src="./assets/img/banner-desktop.png"></img>
+            <figcaption class="hidden">Banner Promocional</figcaption>
+        </figure>
+    </section> -->
+
+    <!-- Forma alternativa para mudar a imagem conform a resolução -->
+    <section class="banner-promotional">
+        <h2 class="hidden">Seção de banners</h2>
+        <figure class="banner-promotional__figure">
+            <picture class="banner-promotional__picture">
+                <source media="(min-width:650px)" srcset="./assets/img/banner-desktop.png">
+                <img src="./assets/img/banner-mobile.png" alt="Banner Promocional" class="banner-promotional__img">
+            </picture>
             <figcaption class="hidden">Banner Promocional</figcaption>
         </figure>
     </section>
+
 
     <main>
         <section>

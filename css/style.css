@@ -56,7 +56,8 @@ img {
                     .header .menu__list .menu__item a img{
                         width: 20px;
                     }   
-
+    /* SECTION BANNER */
+    .banner-promotional {}
 
 /* Desktop  */
 @media screen and (min-width: 800px){
