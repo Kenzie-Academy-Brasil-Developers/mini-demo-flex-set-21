@@ -76,7 +76,33 @@ img {
             .main__section-category .main__qtd-products{ 
                 font-size: 1em;
             }
+    /* Seção produtos */
+    .vitrine {
 
+    }
+    .vitrine__list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .vitrine__product {
+       padding: 0 10px;
+    }
+        .vitrine__product figure {
+            width: 158px;
+            height: 101px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .vitrine__product figure img{
+            
+        }
+
+    
 /* Desktop  */
 @media screen and (min-width: 800px){
 
