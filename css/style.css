@@ -1,16 +1,7 @@
 /* Importação da font lato*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* Corres */
-
- /* 
-    #5CA720
-    #161616
-    #A5A1A1
-    #F9F9F9
- */
-
-
+/* Estilos Gerais */
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -20,38 +11,44 @@ img {
 .hidden {
     display: none;
 }
+
 /* Mobile  */
 
+    /* HEADER */
     .header {
         display: flex;
         justify-content: space-between;
-        padding: 16px;
+        padding: 0 16px;
         align-items: center;
+        height: 82px;
     }
     
-    .header .header__image {
+    .header .header__logo {
         display: flex;
         width: 20px;
         height: 20px;
     }
 
-        .header .header__image img {
+        .header .header__logo img {
             width: 20px;
-
         }
 
-        .header .header__image figcaption {}
+        .header .header__logo figcaption {
+            margin-left: 10px;
+        }
 
 
     .header .menu{}
 
         .header .menu__list{
-            display: flex;
+            /* display: flex; */ 
         }
+
+            /* Para alinhar os items podemos utilizar o flex no PAI(UL) ou inline-block no li (transformar um elemento block em inline)*/
 
             .header .menu__list .menu__item{
                 padding: 0 8px;
-
+                display: inline-block;
             }  
 
                 .header .menu__list .menu__item a{}   
@@ -63,5 +60,23 @@ img {
 
 /* Desktop  */
 @media screen and (min-width: 800px){
+
+    /* HEADER */
+    .header {
+        padding: 0px 30px;
+        height: 94px;
+    }
+    .header .header__logo img {
+        width: 25px;
+        height: 25px;
+    }
+    .header .header__logo figcaption {
+        font-size: 1.5em;
+    }
+    .header .menu__list .menu__item a img {
+        width: 25px;
+
+    }
+    
 
 }
