@@ -59,6 +59,24 @@ img {
     /* SECTION BANNER */
     .banner-promotional {}
 
+    /* SECTION TITLE CATEGORY */
+    .main {
+
+    }
+        .main__section-category{
+            display: flex;
+            justify-content: space-between;
+            padding: 16px;
+            align-items: center;
+        }
+           .main__section-category .main__title{ 
+                font-size: 1.2em;
+                text-transform: uppercase;
+            }
+            .main__section-category .main__qtd-products{ 
+                font-size: 1em;
+            }
+
 /* Desktop  */
 @media screen and (min-width: 800px){
 
@@ -79,5 +97,16 @@ img {
 
     }
     
+    .main__section-category{
+        padding: 30px;
+
+    }
+       .main__section-category .main__title{ 
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+        .main__section-category .main__qtd-products{ 
+            font-size: 1.5em;
+        }
 
 }
